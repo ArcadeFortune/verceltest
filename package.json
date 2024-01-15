@@ -1,0 +1,17 @@
+{
+  "name": "verceltest",
+  "version": "1.0.0",
+  "description": "test backend on vercel",
+  "main": "./backend/index.js",
+  "scripts": {
+    "start": "node ./backend/index.js",
+    "serve": "serve ./frontend -l 3000",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "ArcadeFortune",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "serve": "^14.2.1"
+  }
+}
